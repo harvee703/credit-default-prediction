@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecting Credit Defaults</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .file-input {
+            margin: 10px 0;
+        }
+
+        .btn {
+            background-color: #008CBA;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0073aa;
+        }
+
+        #result {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Detecting Credit Defaults</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data" class="file-input">
+            <input type="file" name="file" accept=".csv" required>
+            <button type="submit" class="btn">Upload CSV</button>
+        </form>
+        <form action="/process_sample" method="post">
+            <button type="submit" class="btn">Use our test CSV</button>
+        </form>
+        <div id="result">
+            <!-- Display the processing result here -->
+        </div>
+    </div>
+</body>
+</html>
+
+
