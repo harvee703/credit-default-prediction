@@ -10,7 +10,7 @@ cffi
 charset-normalizer
 click==8.1.7
 colorama 
-conda==23.1.0
+
 conda-package-handling 
 conda_package_streaming
 contourpy==1.0.7
