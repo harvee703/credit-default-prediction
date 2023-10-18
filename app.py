@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
- import streamlit as st
+import streamlit as st
 
 from keras.models import Sequential
 from keras.layers import Dense, BatchNormalization, Dropout
