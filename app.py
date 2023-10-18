@@ -26,7 +26,7 @@ predictions = dict()
 
 
 # Streamlit app function
- def streamlit_app():
+def streamlit_app():
      st.title('CSV File Processing')
 
      uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
