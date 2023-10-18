@@ -77,7 +77,6 @@ ruamel.yaml.clib
 scikit-learn 
 scipy 
 six==1.16.0
-sklearn==0.0.post5
 smmap==5.0.1
 sounddevice==0.4.6
 streamlit==1.27.2
