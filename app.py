@@ -15,7 +15,8 @@ from sklearn import metrics
 #import tensorflow as tf
 import numpy as np
 import gc
-
+import warnings
+warnings.filterwarnings('ignore')
 
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
