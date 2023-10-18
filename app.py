@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
-# import streamlit as st
+ import streamlit as st
 
 from keras.models import Sequential
 from keras.layers import Dense, BatchNormalization, Dropout
@@ -26,14 +26,14 @@ predictions = dict()
 
 
 # Streamlit app function
-# def streamlit_app():
-#     st.title('CSV File Processing')
+ def streamlit_app():
+     st.title('CSV File Processing')
 
-#     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
+     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
 
-#     if uploaded_file is not None:
-#         df = pd.read_csv(uploaded_file)
-#         st.write(df)
+     if uploaded_file is not None:
+         df = pd.read_csv(uploaded_file)
+         st.write(df)
 
 # Flask routes
 @app.route('/')
