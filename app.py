@@ -24,10 +24,10 @@ from sklearn.model_selection import train_test_split
 
 
 # Path to the uploaded CSV file
-#UPLOAD_FOLDER = 'uploads'
-#os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-#app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-#predictions = dict()
+UPLOAD_FOLDER = 'uploads'
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+predictions = dict()
 
 
 
