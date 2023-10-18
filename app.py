@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from flask import Flask, request, jsonify, render_template
+#from flask import Flask, request, jsonify, render_template
 import streamlit as st
 
 from keras.models import Sequential
@@ -15,7 +15,7 @@ import gc
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
-app = Flask(__name__)
+
 
 # Path to the uploaded CSV file
 UPLOAD_FOLDER = 'uploads'
