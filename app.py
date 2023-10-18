@@ -5,12 +5,14 @@ import os
 import pandas as pd
 #from flask import Flask, request, jsonify, render_template
 import streamlit as st
-
-from keras.models import Sequential
-from keras.layers import Dense, BatchNormalization, Dropout
+import tensorflow as tf
+import keras
+from keras import layers
+#from keras.models import Sequential
+#from keras.layers import Dense, BatchNormalization, Dropout
 from keras import optimizers
 from sklearn import metrics
-import tensorflow as tf
+#import tensorflow as tf
 import numpy as np
 import gc
 
